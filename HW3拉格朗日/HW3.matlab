@@ -14,7 +14,7 @@ options = optimset('Algorithm','trust-region-dogleg','Display','iter');
 
 %% 2.
 
-function F=hw1fun(x)
+function F=hw2fun(x)
 	F =[(2/3)*200*x(1)^(-1/3)*x(2)(1/3) + 20*x(3);
 		(1/3)*200*x(1)^(2/3)*x(2)^(-2/3) + 170*x(3);
 		20*x(1) + 170*x(2) - 20000];
